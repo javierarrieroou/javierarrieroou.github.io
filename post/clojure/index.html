@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Javier Arriero | Clojure </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Dev teams remote support">
+    
+    <link rel="stylesheet" href="https://javierarrieroou.github.io/css/style.min.5be3a155aa89a24586c761b1b5538c4040e3735ee32ac12a708dc1696c0982f5.css" integrity="sha256-W&#43;OhVaqJokWGx2GxtVOMQEDjc17jKsEqcI3BaWwJgvU=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://javierarrieroou.github.io/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://javierarrieroou.github.io/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://javierarrieroou.github.io/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://javierarrieroou.github.io/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://javierarrieroou.github.io/post/clojure/">
+    
+    
+    <script type="text/javascript" src="https://javierarrieroou.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://javierarrieroou.github.io/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Clojure"/>
+<meta name="twitter:description" content="Clojure development"/>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://javierarrieroou.github.io/images/0.jpeg" alt="profile picture">
+        <h3 title=""><a href="/">Javier Arriero OÜ</a></h3>
+        <div class="description">
+          <p>Dev teams remote support</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://pt.linkedin.com/in/javier-arriero-pais-4668bb128" rel="me" aria-label="LinkedIn">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://github.com/analyticbastard" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:javierarrieropais@outlook.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Javier Arriero 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    <ul class="nav" id="navMenu">
+        
+        
+        
+        <li><a  href="/"  title="">Home</a></li>
+        
+        
+        <li><a  href="/about/"  title="">About</a></li>
+        
+        
+        <li class="theme-switch-item">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+        </li>
+    </ul>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Clojure
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i>
+          <span class="date">Mon, Mar 11, 2019</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">5-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>Clojure is a dynamic, general-purpose programming language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming. Clojure is a compiled language, yet remains completely dynamic – every feature supported by Clojure is supported at runtime. Clojure provides easy access to the Java frameworks, with optional type hints and type inference, to ensure that calls to Java can avoid reflection.</p>
+<p>Clojure is a dialect of Lisp, and shares with Lisp the code-as-data philosophy and a powerful macro system. Clojure is predominantly a functional programming language, and features a rich set of immutable, persistent data structures. When mutable state is needed, Clojure offers a software transactional memory system and reactive Agent system that ensure clean, correct, multithreaded designs.</p>
+<h2 id="what">What</h2>
+<ol>
+<li>
+<p>Homoiconicity
+Clojure is related to the prominent and elegant Lisp family. One of its main properties is homoiconicity, which causes lively debate among software developers worldwide.</p>
+<p>A language is homoiconic if a program written in it can be manipulated as data using the language. Thus the program’s internal representation can be inferred just by reading the program itself.
+Imagine a Lisp program, which is presented as a normal Lisp list. Meanwhile, you can manipulate it using other Lisp code. So, Clojure developers can access and transform code into data. This Lisp peculiarity shows the concept of “code as data.”</p>
+<p>This feature is conceptually possible because of the minimalist and utterly consistent Clojure syntax. The whole program code is represented via S-expressions (tree-like structures). This is the of same type of code representatoin as that supported by Clojure Core. So, code can be easily transformed into data through macros.</p>
+<p>The strong macro system gives an opportunity to create code that generates other code. It enables software developers to write extensions without waiting for the programming language designers to implement it. The latter is also relevant for writing you own Domain-Specific Languages (DSLs) with the help of macros. They are responsible for the “translation” from your language to Clojure.</p>
+<p>The benefits of well-designed DSLs are obvious. Clojure’s macro system gives you excellent opportunities for using them.</p>
+<p>Writing the internal DSL with these macros leads to a new level of code refactoring. It also expands the language itself with modern elements. They are useful for the implementation of business goals in the context of each specific project.</p>
+<p>The core.async macro in Clojure is one of the best examples of this principle benefit. core.async brings the power of CSP-style concurrency to Clojure. Thanks to the macro, it was created as a library without interrupting the Clojure language.</p>
+<p>Compojure is another popular Clojure library that is based on the homoiconicity principle.</p>
+</li>
+<li>
+<p>Functional Approach
+What causes complexity and problems in computer programs? Side effects are among the main factors of our challenges. You can’t fully avoid them. But you can localize the spillovers and the programming language should help you.</p>
+<p>As a functional language, Clojure encourages you to write pure functions. The results of such functions depend only on the input parameters. So, it doesn’t matter how many times you start the function. The result is always the same. This simplifies testing because you don’t have to try various queues and find the right state of inputs.</p>
+<p>Pure functions are also handy for analyzing and refactoring. They are extremely simple, even if they do a great job.</p>
+<p>Clojure&rsquo;s beauty lies in how the language perfectly joins individual elements into a coherent whole.</p>
+<p>Clojure, like JavaScript, operates using functions as values. So, they can be transmitted as parameters and returned from other functions. This provides flexibility for a developer because he/she can delay or customize an on-the-fly logic realization. Moreover, the functional approach enables making the processors middleware by default. So, you can customize them for different business goals, which range from logging to conditional email sending.</p>
+</li>
+<li>
+<p>Immutable Data Structures
+Clojure has features of an object-oriented language. So, it initially includes a set of immutable (unchangeable) structures and methods for working with them.</p>
+<p>They look like common JavaScript arrays and Hash Maps. But any operation can’t change their values. Instead of changing, it creates an absolutely new structure with updated data.</p>
+<p>The immutability is handy when writing multithreaded applications because it negates a whole class of bugs related to synchronization of changing variables between threads. So, you can build entire information models using the few immutable data structures included in Clojure. The predictable code is easier to write and easier to test, which helps to develop a product quickly.</p>
+<p>For example, look at the FreshCode use case. The development of e-commerce platform that supports more than one million users took just 4 months. It proves that Clojure allows programmers to focus on engineering efforts instead of extra details.</p>
+</li>
+<li>
+<p>A Multipurpose Solution
+Clojure is a good choice for a wide variety of projects. You can use it from social networking industry to Big Data solutions. Initially, Clojure language was targeted for working with JVM. So, the most popular modern Clojure implementation uses the Java Virtual Machine. This enables simple interaction with Java libraries, creation of Java objects and using the Maven repository. Java platform’s maturity and the huge ecosystem provide many benefits for Clojure developers.</p>
+<p>An interesting fact is that although JVM primarily runs Java, about 3% of JVM users are programming in Clojure. It’s a remarkable fact, which shows the great potential of functional programming and Clojure itself.</p>
+</li>
+</ol>
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/development/">development</a><a class="category" href="/categories/services/">services</a></span>
+
+        
+    <span class="separator"><a class="tag" href="/tags/clojure/">clojure</a><a class="tag" href="/tags/development/">development</a><a class="tag" href="/tags/services/">services</a></span>
+
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://javierarrieroou.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://javierarrieroou.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://javierarrieroou.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>
