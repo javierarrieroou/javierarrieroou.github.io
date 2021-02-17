@@ -1,7 +1,7 @@
 +++
 author = "Javier Arriero"
 title = "Clojure"
-date = "2019-03-11"
+date = "2020-09-11"
 description = "Clojure development"
 tags = [
     "clojure",

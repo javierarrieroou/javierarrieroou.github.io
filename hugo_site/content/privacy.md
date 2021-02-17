@@ -1,7 +1,7 @@
 +++
 title = "Privacy Policy"
 description = "Experience"
-date = "2019-02-28"
+date = "2021-02-15"
 aliases = ["about-us","contact"]
 author = "Javier Arriero"
 +++

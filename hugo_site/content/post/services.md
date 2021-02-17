@@ -1,7 +1,7 @@
 +++
 author = "Javier Arriero"
 title = "Teams external growing"
-date = "2019-03-11"
+date = "2020-09-11"
 description = "Team external growing"
 tags = [
     "clojure",
