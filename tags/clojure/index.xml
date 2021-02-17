@@ -6,11 +6,11 @@
     <description>Recent content in clojure on Javier Arriero OÜ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://javierarrieroou.github.io/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://javierarrieroou.github.io/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Clojure</title>
       <link>https://javierarrieroou.github.io/post/clojure/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://javierarrieroou.github.io/post/clojure/</guid>
       <description>&lt;p&gt;Clojure is a dynamic, general-purpose programming language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming. Clojure is a compiled language, yet remains completely dynamic – every feature supported by Clojure is supported at runtime. Clojure provides easy access to the Java frameworks, with optional type hints and type inference, to ensure that calls to Java can avoid reflection.&lt;/p&gt;
@@ -20,7 +20,7 @@
     <item>
       <title>Teams external growing</title>
       <link>https://javierarrieroou.github.io/post/services/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://javierarrieroou.github.io/post/services/</guid>
       <description>&lt;p&gt;By growing externally, hiring outsourced developers into your team, you can dynamically grow your needs to achieve the development speed you need.&lt;/p&gt;</description>
